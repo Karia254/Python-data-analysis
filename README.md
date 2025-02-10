@@ -14,10 +14,11 @@ This project focuses on data cleaning, transformation, and exploratory data anal
 **Data Set**
 
 The AirBnB Listings Dataset has 20,765 rows and 22 columns including the following features;
-**id**: Unique identifier for each listing
-**name**: Title of the Airbnb listing
-**host_name**: Name of the host
-**neighborhood_group**: Group (borough) where the listing is located
+
++**id**: Unique identifier for each listing
++**name**: Title of the Airbnb listing
++**host_name**: Name of the host
++**neighborhood_group**: Group (borough) where the listing is located
 **latitude/longitude**: Geolocation of listings
 **price**: Nightly rental price
 **room_type**: Type of accommodation (e.g., entire home, private room)
