@@ -1,11 +1,45 @@
 # Data cleaning,transformation and EDA on New York AirBnB Listings 2024
 
-#Project Overview
+**Project Overview**
+
 This project focuses on data cleaning, transformation, and exploratory data analysis (EDA) of Airbnb listings in New York for 2024. The goal is to uncover trends, patterns, and insights into the rental market, helping to understand pricing, availability, and other key factors influencing Airbnb listings
 
-#Project Objectives
+**Project Objectives**
 1. Analyze room types, pricing, and availability across different neighborhoods to identify market trends.
 2. Detect and handle potential outliers in pricing to improve data quality.
 3. Perform univariate analysis on price and availability distribution across different neighborhoods.
 4. Examine the relationship between price and neighborhood to understand location-based pricing variations.
 5. Analyze the correlation between price and the number of reviews to explore how customer feedback influences pricing
+
+**Data Set**
+
+The AirBnB Listings Dataset has 20,765 rows and 22 columns including the following features;
+**id**: Unique identifier for each listing
+**name**: Title of the Airbnb listing
+**host_name**: Name of the host
+**neighborhood_group**: Group (borough) where the listing is located
+**latitude/longitude**: Geolocation of listings
+**price**: Nightly rental price
+**room_type**: Type of accommodation (e.g., entire home, private room)
+**reviews_per_month**: Average monthly reviews for the listing
+**availability_365**: Number of available days in the year
+
+**Steps**
+
+**Data Cleaning and Transformation**
+
+1. **Handle missing data**: Filled or removed null values in the price, neighborhood, and beds columns.
+2. **Remove duplicates**: Ensured each listing is unique to prevent redundancy.
+3. **Fix data types**: Converted last_review to a datetime object for accurate analysis.
+4. **Remove outliers**: Capped listings with prices above $2,000 to prevent skewed visualizations.
+5. **Add a new column for price per bed**: Calculated price per bed for better price comparisons.
+   
+ **Exploratory Data Analysis**
+ 
+1. Analyzed price variations using a histogram: Most listings were priced between $50 and $300.
+2. Calculated the average price per neighborhood:
+  . Manhattan had the highest average price at $208.21.
+  . Bronx had the lowest average price at $107.99.
+3.  Computed the average price per bed for each neighborhood to understand price variations relative to accommodation size.
+4. Visualized the average price for different room types per neighborhood using a bar plot.
+5. Analyzed the relationship between price and the number of reviews, visualizing it with a scatter plot to identify trends.
