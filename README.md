@@ -38,6 +38,7 @@ The AirBnB Listings Dataset has 20,765 rows and 22 columns including the followi
 4. **Remove outliers**: Capped listings with prices above $2,000 to prevent skewed visualizations.
 5. **Add a new column for price per bed**: Calculated price per bed for better price comparisons.
    
+ ---  
  **Exploratory Data Analysis**
  
 1. Analyzed price variations using a histogram: Most listings were priced between $50 and $300.
@@ -47,3 +48,12 @@ The AirBnB Listings Dataset has 20,765 rows and 22 columns including the followi
 3.  Computed the average price per bed for each neighborhood to understand price variations relative to accommodation size.
 4. Visualized the average price for different room types per neighborhood using a bar plot.
 5. Analyzed the relationship between price and the number of reviews, visualizing it with a scatter plot to identify trends.
+
+
+---
+   **Key Insights**
+1. Manhattan has the most expensive listings, followed by Brooklyn.
+2. Entire homes/apartments cost significantly more than private or shared rooms.
+3. Entire homes/apartments are the most common type of listing, but private rooms offer budget-friendly options.
+4. Listings with high availability tend to have lower prices and more reviews, likely due to a better guest experience.
+5. There are very few listings priced at $10,000 and above; most prices are below $2,000, indicating the need to filter out such extreme values.
