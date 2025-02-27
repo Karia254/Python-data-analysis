@@ -1,12 +1,13 @@
-## Airbnb Listings Data Cleaning, EDA Project: New York 2024
+# Airbnb Listings Data Cleaning, EDA Project: New York 2024
 
+![Airbnb-NYC-law](https://github.com/user-attachments/assets/2739af65-74ec-4197-88d0-105ef9757abb)
 
-**Project Overview**
+## Project Overview
 
 This project focuses on data cleaning, transformation and exploratory data analysis (EDA) of Airbnb listings in New York for 2024. The goal is to uncover trends, patterns and insights into the rental market, helping to understand pricing, availability, and other key factors influencing Airbnb listings
 
 ---
-**Project Objectives**
+## Project Objectives
 1. Analyze room types, pricing, and availability across different neighborhoods to identify market trends.
 2. Detect and handle potential outliers in pricing to improve data quality.
 3. Perform univariate analysis on price and availability distribution across different neighborhoods.
@@ -14,7 +15,7 @@ This project focuses on data cleaning, transformation and exploratory data analy
 5. Analyze the correlation between price and the number of reviews to explore how customer feedback influences pricing
 
 ---
-**Data Set**
+## Data Set
 
 The AirBnB Listings Dataset has 20,765 rows and 22 columns including the following features;
 1. **id**: Unique identifier for each listing
@@ -28,7 +29,7 @@ The AirBnB Listings Dataset has 20,765 rows and 22 columns including the followi
 9. **availability_365**: Number of available days in the year
     
 ---
-**Steps**
+## Steps
 
 **Data Cleaning and Transformation**
 
