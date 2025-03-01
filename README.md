@@ -33,7 +33,7 @@ The AirBnB Listings Dataset has 20,765 rows and 22 columns including the followi
 
 **Data Cleaning and Transformation**
 
-1. **Handle missing data**: Filled or removed null values in the price, neighborhood, and beds columns.
+1. **Handle missing data**: Removed null values in the price, neighborhood, and beds columns.
 2. **Remove duplicates**: Ensured each listing is unique to prevent redundancy.
 3. **Fix data types**: Converted last_review to a datetime object for accurate analysis.
 4. **Remove outliers**: Capped listings with prices above $2,000 to prevent skewed visualizations.
